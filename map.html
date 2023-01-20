@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Map</title>
+    <style>
+      .main-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+      }
+    </style>
   </head>
   <body>
     <h1>Phoenix Mall</h1>
-    <iframe
+    <div class="main-container">
+      <iframe
       src="https://www.google.com/maps/embed?pb=!4v1674147903169!6m8!1m7!1sCAoSLEFGMVFpcE5WSE5fQ3hTX2dYaHlDdGFoMG1UeVAxbkh5UVVUT0xOMnJiWlJw!2m2!1d12.9970372!2d77.696619!3f180!4f0!5f0.7820865974627469"
       width="600"
       height="450"
@@ -35,5 +43,6 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+    </div>
   </body>
 </html>
